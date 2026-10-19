@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import NewsList from '../components/NewsList'
 import Reveal from '../components/Reveal'
 import SectionTitle from '../components/SectionTitle'
+import WaterScroll from '../components/WaterScroll'
 import usePageMeta from '../hooks/usePageMeta'
 import { images, site } from '../data/siteData'
 
@@ -43,6 +44,7 @@ export default function Home() {
         aria-label="メインビジュアル"
       >
         <div className="hero-overlay" aria-hidden="true" />
+        <WaterScroll />
         <div className="hero-content">
           <Reveal>
             <h1>

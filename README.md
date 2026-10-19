@@ -65,9 +65,18 @@ GitHub Pages でも直接リンクが開けるように `HashRouter` を採用�
 | `mv_company.jpg` | 会社概要 | 1200 x 800 |
 | `contact_mv.jpg` | お問い合わせ・フッター | 1600 x 900 |
 
-> **重要:** `public/images/` の現在の画像は [Unsplash](https://unsplash.com/license) の
-> フリー素材を仮画像として使用しています。公開前には、自社で撮影した写真や
-> 権利を保有している画像に差し替えることをおすすめします。
+> **重要:** `public/images/` の現在の画像はフリー素材を仮画像として使用しています。
+> 公開前には、自社で撮影した写真や権利を保有している画像に差し替えることをおすすめします。
+
+### 画像クレジット
+
+| ファイル | 出典 |
+| --- | --- |
+| `top_mv.jpg` | [Unsplash](https://unsplash.com/photos/2WHTac8jVA8) |
+| `mv_message.jpg` | [Pexels](https://www.pexels.com/photo/5673488/) |
+| `mv_service.jpg` | [Pexels](https://www.pexels.com/photo/29592627/) |
+| `mv_company.jpg` | [Unsplash](https://unsplash.com/photos/nDt6QoBj6fU) |
+| `contact_mv.jpg` | [Public Domain Q](https://publicdomainq.net/customer-service-woman-0051716/) |
 
 元サイトのHTML・CSS・画像は `_reference/` に保存してあります（`.gitignore` 対象）。
 見た目の比較用に残しているもので、公開サイトには含まれません。
@@ -118,9 +127,9 @@ https://ユーザー名.github.io/リポジトリ名/
 
 ```css
 :root {
-  --accent: #ff7800;
-  --accent-dark: #e56a00;
-  --highlight: #fff200;
+  --accent: #0b5f9e;
+  --accent-dark: #074a7c;
+  --highlight: #9ae6ff;
   ...
 }
 ```
