@@ -52,7 +52,7 @@ export default function Company() {
               <div className="map-placeholder">
                 <span className="map-pin" aria-hidden="true" />
                 <p>Google Map</p>
-                <small>公開前に地図の埋め込みURLを設定してください</small>
+                <small>地図の埋め込みは準備中です</small>
               </div>
             )}
           </div>

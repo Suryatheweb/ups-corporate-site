@@ -3,6 +3,8 @@
 既存サイトの構成を参考に、React + Vite で作り直したコーポレートサイトです。
 GitHub Pages にそのまま公開できる構成になっています。
 
+**公開URL:** https://suryatheweb.github.io/ups-corporate-site/
+
 ## ローカルで動かす
 
 ```bash
