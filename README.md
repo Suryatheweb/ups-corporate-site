@@ -76,7 +76,7 @@ GitHub Pages でも直接リンクが開けるように `HashRouter` を採用�
 | `mv_message.jpg` | [Pexels](https://www.pexels.com/photo/5673488/) |
 | `mv_service.jpg` | [Pexels](https://www.pexels.com/photo/29592627/) |
 | `mv_company.jpg` | [Unsplash](https://unsplash.com/photos/nDt6QoBj6fU) |
-| `contact_mv.jpg` | [Public Domain Q](https://publicdomainq.net/customer-service-woman-0051716/) |
+| `contact_mv.jpg` | [Pexels](https://www.pexels.com/photo/7682342/) |
 
 元サイトのHTML・CSS・画像は `_reference/` に保存してあります（`.gitignore` 対象）。
 見た目の比較用に残しているもので、公開サイトには含まれません。

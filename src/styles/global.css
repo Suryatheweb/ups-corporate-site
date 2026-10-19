@@ -1223,10 +1223,11 @@ a.news-item:hover {
 
 .water-layer svg {
   display: block;
-  width: 106%;
+  width: 118%;
   height: 100%;
-  margin-left: -3%;
-  animation: water-drift 11s ease-in-out infinite;
+  margin-left: -9%;
+  will-change: transform;
+  animation: water-drift 20s ease-in-out infinite;
 }
 
 .water-layer-back {
@@ -1243,19 +1244,19 @@ a.news-item:hover {
 
 .water-layer-back svg {
   fill: rgba(154, 230, 255, 0.14);
-  animation-duration: 15s;
+  animation-duration: 28s;
   animation-direction: reverse;
 }
 
 .water-layer-mid svg {
   fill: rgba(94, 195, 234, 0.18);
-  animation-duration: 11s;
+  animation-duration: 22s;
 }
 
 .water-layer-front svg {
   fill: var(--bg);
-  animation-duration: 8s;
-  animation-delay: -2.5s;
+  animation-duration: 16s;
+  animation-delay: -4s;
 }
 
 .water-bubble {
@@ -1305,11 +1306,11 @@ a.news-item:hover {
 @keyframes water-drift {
   0%,
   100% {
-    transform: translateX(-1.3%);
+    transform: translate3d(-2.4%, 1.1%, 0);
   }
 
   50% {
-    transform: translateX(1.3%);
+    transform: translate3d(2.4%, -1.1%, 0);
   }
 }
 
